@@ -1,0 +1,221 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+header {
+  position: relative;
+}
+nav {
+  height: 50px;
+  background: #212121;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 70px;
+  margin: 0;
+  list-style: none;
+}
+.menu .menu_item {
+  border-right: 2px dotted #000;
+  padding-right: 45px;
+}
+.menu .menu_link {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 15px;
+  text-decoration: none;
+  color: #fff;
+}
+.subheader {
+  position: absolute;
+  width: 100%;
+  height: 87px;
+  background: rgba(0, 0, 0, 0.6);
+}
+.subheader .subheader_logo {
+  display: block;
+  max-width: 100%;
+  margin-top: 16px;
+}
+.subheader .subheader_official {
+  margin-top: 6px;
+  font-weight: 100;
+  font-size: 13px;
+  align-items: center;
+  color: #fff;
+}
+.subheader .subheader_call {
+  margin-top: 19px;
+  text-align: right;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  align-items: center;
+  color: #fff;
+}
+.subheader .subheader_phone {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  font-weight: 400;
+  line-height: 15px;
+  font-size: 22px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  text-align: right;
+  color: #fff;
+}
+.subheader .subheader_btn {
+  margin-top: 19px;
+  width: 172px;
+  height: 46px;
+  background: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
+  border: none;
+  box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 14px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+.promo_btn {
+  margin-top: 19px;
+  width: 172px;
+  height: 46px;
+  background: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
+  border: none;
+  box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 14px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+.promo {
+  min-height: 800px;
+  background: url(../img/uber_bg.jpg) center center/cover no-repeat;
+  padding: 117px 0 185px 0;
+}
+.promo .promo_header {
+  margin: 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+.promo .subhead {
+  margin: 0;
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+.promo .promo_descr {
+  width: 985px;
+  height: 173px;
+  margin: 0;
+  margin-top: 55px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+.promo .promo_btn {
+  display: block;
+  margin: 110px auto 0 auto;
+}
+.benefis_all {
+  display: flex;
+}
+.benefis {
+  display: flex;
+  justify-content: center;
+  margin: 18px auto;
+  width: 100px;
+  height: 27px;
+  font-weight: 400;
+  font-size: 11px;
+  text-align: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #000;
+}
+.benefis_subheder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #222;
+}
+.benefis_text {
+  display: flex;
+  margin: 60px 25px 0 0;
+}
+.benefis_img {
+  margin: 0 25px;
+  padding: 26px 26px 21px 26px;
+  border-radius: 100%;
+  background-color: #1eacc7;
+  width: 116px;
+  height: 116px;
+}
+.ben_text {
+  width: 371px;
+  height: 150px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
+  align-items: center;
+}
+.text_blue {
+  font-weight: 400;
+  font-size: 17px;
+  color: #1eacc7;
+}
+.mobile {
+  margin-top: 64px;
+  background: url(../img/mobile_bg.jpg) center center/cover no-repeat;
+}
+.mob_sub {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  align-items: center;
+  text-align: center;
+  color: #222;
+}
+.mob_ben {
+  display: flex;
+  margin-top: 30px;
+}
+.mob_con1 {
+  width: 320px;
+  height: 280px;
+  background: url(../img/Карточка\ 1.png) center center/cover no-repeat;
+}
